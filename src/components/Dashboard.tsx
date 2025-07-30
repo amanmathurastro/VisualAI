@@ -817,7 +817,7 @@ const Dashboard = () => {
                     <User size={16} className="text-gray-400" />
                     <select
                       value={userRole}
-                      // @typescript-eslint/no-explicit-any
+                      // eslint-disable-next-line @typescript-eslint/no-explicit-any
                       onChange={(e) => setUserRole(e.target.value as any)}
                       className="bg-transparent text-sm font-medium focus:outline-none cursor-pointer"
                     >

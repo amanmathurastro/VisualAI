@@ -9,23 +9,14 @@ import {
   AlertTriangle,
   Database,
   TrendingUp,
-  Gauge,
   FileText,
   Bell,
   Brain,
-  MessageSquare,
-  Image as ImageIcon,
-  ChevronRight,
   BrainCircuit,
-  TrendingDown,
   FileSearch,
   Search,
   Bot,
-  Replace,
   Target,
-  X,
-  MonitorUp,
-  WifiOff,
 } from "lucide-react";
 import type { Cell, Plant } from "../Dashboard";
 
